@@ -28,7 +28,6 @@ Address for accessing Swagger in the application when it is up: http://localhost
 To run this project locally, perform the following steps:
 </br>
 * Use this command to download the project to your machine: git clone https://github.com/emmoro/project-spring-boot-with-angular-server.git
-</br>
 * To install all of its dependencies and start each app, follow the instructions below:
 </br>
 * To run the server. Application address: http://localhost:8180/
