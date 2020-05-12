@@ -1,0 +1,31 @@
+version:  '3'
+services:
+  mysql:
+    image: mysql:5.7
+    restart: always
+    container_name: product-manager-server-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=test
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+    volumes:
+      - /var/lib/mysql
+    ports:
+      - 3309:3306
+  web:
+    image: product-manager-server
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - mysql 
+    ports:
+      - 8181:8180
+    environment:
+      DATABASE_HOST: mysql
+      DATABASE_USER: root
+      DATABASE_NAME: test
+      DATABASE_PORT: 3306
+    links:
+      - mysql:mysql
