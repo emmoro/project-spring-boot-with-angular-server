@@ -2,7 +2,6 @@
 * Project using Angular as a front-end and Spring boot restful API as a backend.
 * Backend: Project Spring Boot with Java 8 using Docker, Rest, Junit 5, Swagger and Database mysql.
 * Front-end: Angular
-</br>
 
 ## Requirements
 You will need to following tools in order to work with this project and code:
@@ -37,7 +36,6 @@ mvnw spring-boot:run
 ```bash
 npm start
 ```
-</br>
 
 ## Note
 * This project is the server in Spring-boot, it´s necessary to do download the part of the Client, at the following address:
