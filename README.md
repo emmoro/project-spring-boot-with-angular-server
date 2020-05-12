@@ -29,15 +29,11 @@ To run this project locally, perform the following steps:
 </br>
 * Use this command to download the project to your machine: git clone https://github.com/emmoro/project-spring-boot-with-angular-server.git
 * To install all of its dependencies and start each app, follow the instructions below:
-</br>
 * To run the server. Application address: http://localhost:8180/
-</br>
 ```bash
 mvnw spring-boot:run
 ```
-</br>
 * To run the client. Application address: http://localhost:4200/
-</br>
 ```bash
 npm start
 ```
