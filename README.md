@@ -1,8 +1,6 @@
 ## Spring Boot with Angular
 * Project using Angular as a front-end and Spring boot restful API as a backend.
-</br>
 * Backend: Project Spring Boot with Java 8 using Docker, Rest, Junit 5, Swagger and Database mysql.
-</br>
 * Front-end: Angular
 </br>
 
