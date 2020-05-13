@@ -48,6 +48,7 @@ public class SwaggerConfig {
 	public SecurityConfiguration security() {
 		String token;
 		try {
+			//It´s necessary to change the email according to the administrator user
 			UserDetails userDetails = this.userDetailsService.loadUserByUsername("admin@admin.com");
 			token = this.jwtTokenUtil.doGenerateToken(userDetails);
 		} catch (Exception e) {
